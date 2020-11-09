@@ -1,0 +1,25 @@
+<h2>Processors</h2>
+<ul class="processors">
+	<li *ngFor="let processor of processors" [class.selected]="processor === selectedProcessor" (click)="onSelect(processor)">
+		<span class="badge">{{processor.id}}</span> {{processor.name}}
+	</li>
+</ul>
+
+<div *ngIf="selectedProcessor">
+
+	<h2>{{selectedProcessor.name | uppercase}} Details</h2>
+	<div><span>id: </span>{{selectedProcessor.id}}</div>
+	<div>
+		<label>name:
+      <input [(ngModel)]="selectedProcessor.name" placeholder="name"/>
+    </label>
+	</div>
+
+</div>
+
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
