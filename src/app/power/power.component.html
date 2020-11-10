@@ -1,6 +1,6 @@
 <h2>Powers</h2>
 <ul class="poweres">
-	<li *ngFor="let power of heroes" [class.selected]="power === selectedPower" (click)="onSelect(power)">
+	<li *ngFor="let power of powers" [class.selected]="power === selectedPower" (click)="onSelect(power)">
 		<span class="badge">{{power.id}}</span> {{power.name}}
 	</li>
 </ul>
