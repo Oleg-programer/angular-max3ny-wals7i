@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Videocard } from '../hero';
+import { Videocard } from '../videocard';
 import { VIDEOCARDS } from '../mock-videocards';
 
 @Component({
@@ -18,8 +18,8 @@ export class VideocardesComponent implements OnInit {
   ngOnInit() {
   }
 
-  onSelect(hero: Videocard): void {
-    this.selectedVideocard = hero;
+  onSelect(videocard: Videocard): void {
+    this.selectedVideocard = videocard;
   }
 }
 
