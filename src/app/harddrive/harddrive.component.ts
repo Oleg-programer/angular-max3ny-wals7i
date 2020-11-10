@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { Processor } from '../processor';
-import { PROCESSORS } from '../mock-processors';
+import { PROCESSORS } from '../mock-harddrives';
 
 @Component({
-  selector: 'app-processors',
-  templateUrl: './processors.component.html',
-  styleUrls: ['./processors.component.css']
+  selector: 'app-harddrives',
+  templateUrl: './harddrives.component.html',
+  styleUrls: ['./harddrives.component.css']
 })
 
 export class ProcessorsComponent implements OnInit {
 
-  processors = PROCESSORS;
+  harddrives = PROCESSORS;
   selectedProcessor: Processor;
 
   constructor() { }
