@@ -1,7 +1,7 @@
 <h2>Boxes</h2>
-<ul class="boxes">
-	<li *ngFor="let box of heroes" [class.selected]="box === selectedBox" (click)="onSelect(box)">
-		<span class="badge">{{box.id}}</span> {{box.name}}
+<ul class="poweres">
+	<li *ngFor="let power of heroes" [class.selected]="power === selectedBox" (click)="onSelect(power)">
+		<span class="badge">{{power.id}}</span> {{power.name}}
 	</li>
 </ul>
 
