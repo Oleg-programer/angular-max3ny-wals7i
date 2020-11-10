@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { Videocard } from '../hero';
-import { VIDEOCARDS } from '../mock-heroes';
+import { VIDEOCARDS } from '../mock-videocards';
 
 @Component({
-  selector: 'app-heroes',
-  templateUrl: './heroes.component.html',
-  styleUrls: ['./heroes.component.css']
+  selector: 'app-videocards',
+  templateUrl: './videocards.component.html',
+  styleUrls: ['./videocards.component.css']
 })
 
 export class VideocardesComponent implements OnInit {
 
-  heroes = VIDEOCARDS;
+  videocards = VIDEOCARDS;
   selectedVideocard: Videocard;
 
   constructor() { }
