@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Motherboard } from '../hero';
+import { Motherboard } from '../motherboard';
 import { HEROES } from '../mock-motherboards';
 
 @Component({
@@ -18,8 +18,8 @@ export class MotherboardesComponent implements OnInit {
   ngOnInit() {
   }
 
-  onSelect(hero: Motherboard): void {
-    this.selectedMotherboard = hero;
+  onSelect(motherboard: Motherboard): void {
+    this.selectedMotherboard = motherboard;
   }
 }
 
