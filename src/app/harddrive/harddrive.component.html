@@ -1,6 +1,6 @@
 <h2>Harddrives</h2>
-<ul class="processors">
-	<li *ngFor="let processor of processors" [class.selected]="processor === selectedProcessor" (click)="onSelect(processor)">
+<ul class="harddrives">
+	<li *ngFor="let processor of harddrives" [class.selected]="processor === selectedProcessor" (click)="onSelect(processor)">
 		<span class="badge">{{processor.id}}</span> {{processor.name}}
    
 	</li>
