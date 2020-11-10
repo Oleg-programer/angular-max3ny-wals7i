@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Videocard } from '../hero';
-import { HEROES } from '../mock-heroes';
+import { VIDEOCARDS } from '../mock-heroes';
 
 @Component({
   selector: 'app-heroes',
@@ -10,7 +10,7 @@ import { HEROES } from '../mock-heroes';
 
 export class VideocardesComponent implements OnInit {
 
-  heroes = HEROES;
+  heroes = VIDEOCARDS;
   selectedVideocard: Videocard;
 
   constructor() { }
