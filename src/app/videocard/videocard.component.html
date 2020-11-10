@@ -1,17 +1,17 @@
 <h2>Videocards</h2>
 <ul class="videocards">
-	<li *ngFor="let videocard of videocards" [class.selected]="videocard === selectedHero" (click)="onSelect(videocard)">
+	<li *ngFor="let videocard of videocards" [class.selected]="videocard === selectedVideocard" (click)="onSelect(videocard)">
 		<span class="badge">{{videocard.id}}</span> {{videocard.name}}
 	</li>
 </ul>
 
-<div *ngIf="selectedHero">
+<div *ngIf="selectedVideocard">
 
-	<h2>{{selectedHero.name | uppercase}} Details</h2>
-	<div><span>id: </span>{{selectedHero.id}}</div>
+	<h2>{{selectedVideocard.name | uppercase}} Details</h2>
+	<div><span>id: </span>{{selectedVideocard.id}}</div>
 	<div>
 		<label>name:
-      <input [(ngModel)]="selectedHero.name" placeholder="name"/>
+      <input [(ngModel)]="selectedVideocard.name" placeholder="name"/>
     </label>
 	</div>
 
