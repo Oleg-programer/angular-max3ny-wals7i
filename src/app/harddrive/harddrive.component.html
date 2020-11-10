@@ -1,18 +1,18 @@
 <h2>Harddrives</h2>
 <ul class="harddrives">
-	<li *ngFor="let harddrives of harddrives" [class.selected]="harddrives === selectedProcessor" (click)="onSelect(harddrives)">
+	<li *ngFor="let harddrives of harddrives" [class.selected]="harddrives === selectedHarddrives" (click)="onSelect(harddrives)">
 		<span class="badge">{{harddrives.id}}</span> {{harddrives.name}}
    
 	</li>
 </ul>
 <button class="btn btn-primary" [disabled]="true">Next</button>
-<div *ngIf="selectedProcessor">
+<div *ngIf="selectedHarddrives">
 
-	<h2>{{selectedProcessor.name | uppercase}} Details</h2>
-	<div><span>id: </span>{{selectedProcessor.id}}</div>
+	<h2>{{selectedHarddrives.name | uppercase}} Details</h2>
+	<div><span>id: </span>{{selectedHarddrives.id}}</div>
 	<div>
 		<label>name:
-      <input [(ngModel)]="selectedProcessor.name" placeholder="name"/>
+      <input [(ngModel)]="selectedHarddrives.name" placeholder="name"/>
     </label>
 	</div>
 
