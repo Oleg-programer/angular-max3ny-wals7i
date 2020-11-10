@@ -8,7 +8,7 @@ import { boxes } from '../mock-boxes';
   styleUrls: ['./boxes.component.css']
 })
 
-export class HeroesComponent implements OnInit {
+export class BoxesComponent implements OnInit {
 
   boxes = boxes;
   selectedHero: Box;
