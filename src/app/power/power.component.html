@@ -1,17 +1,17 @@
 <h2>Powers</h2>
 <ul class="poweres">
-	<li *ngFor="let power of heroes" [class.selected]="power === selectedBox" (click)="onSelect(power)">
+	<li *ngFor="let power of heroes" [class.selected]="power === selectedPower" (click)="onSelect(power)">
 		<span class="badge">{{power.id}}</span> {{power.name}}
 	</li>
 </ul>
 
-<div *ngIf="selectedBox">
+<div *ngIf="selectedPower">
 
-	<h2>{{selectedBox.name | uppercase}} Details</h2>
-	<div><span>id: </span>{{selectedBox.id}}</div>
+	<h2>{{selectedPower.name | uppercase}} Details</h2>
+	<div><span>id: </span>{{selectedPower.id}}</div>
 	<div>
 		<label>name:
-      <input [(ngModel)]="selectedBox.name" placeholder="name"/>
+      <input [(ngModel)]="selectedPower.name" placeholder="name"/>
     </label>
 	</div>
 
