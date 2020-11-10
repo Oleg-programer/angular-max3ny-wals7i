@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { Motherboard } from '../hero';
-import { HEROES } from '../mock-heroes';
+import { HEROES } from '../mock-motherboards';
 
 @Component({
-  selector: 'app-heroes',
-  templateUrl: './heroes.component.html',
-  styleUrls: ['./heroes.component.css']
+  selector: 'app-motherboards',
+  templateUrl: './motherboards.component.html',
+  styleUrls: ['./motherboards.component.css']
 })
 
 export class MotherboardesComponent implements OnInit {
 
-  heroes = HEROES;
+  motherboards = HEROES;
   selectedMotherboard: Motherboard;
 
   constructor() { }
