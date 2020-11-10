@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Motherboard } from '../motherboard';
-import { HEROES } from '../mock-motherboards';
+import { MOTHERBOARDS } from '../mock-motherboards';
 
 @Component({
   selector: 'app-motherboards',
@@ -10,7 +10,7 @@ import { HEROES } from '../mock-motherboards';
 
 export class MotherboardesComponent implements OnInit {
 
-  motherboards = HEROES;
+  motherboards = MOTHERBOARDS;
   selectedMotherboard: Motherboard;
 
   constructor() { }
