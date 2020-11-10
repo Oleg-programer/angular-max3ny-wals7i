@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Processor } from '../processor';
+import { Processor } from '../harddrive';
 import { PROCESSORS } from '../mock-harddrives';
 
 @Component({
@@ -18,9 +18,9 @@ export class ProcessorsComponent implements OnInit {
   ngOnInit() {
   }
 
-  onSelect(processor: Processor): void {
-    this.selectedProcessor = processor;
-    console.log(processor);
+  onSelect(harddrive: Processor): void {
+    this.selectedProcessor = harddrive;
+    console.log(harddrive);
   }
   
 
