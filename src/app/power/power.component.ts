@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Power } from '../box';
+import { Power } from '../power';
 import { powers } from '../mock-powers';
 
 @Component({
@@ -18,8 +18,8 @@ export class PoweresComponent implements OnInit {
   ngOnInit() {
   }
 
-  onSelect(box: Power): void {
-    this.selectedPower = box;
+  onSelect(power: Power): void {
+    this.selectedPower = power;
   }
 }
 
