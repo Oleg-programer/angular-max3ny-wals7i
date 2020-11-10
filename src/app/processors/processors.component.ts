@@ -20,7 +20,10 @@ export class ProcessorsComponent implements OnInit {
 
   onSelect(processor: Processor): void {
     this.selectedProcessor = processor;
+    console.log(processor);
   }
+  
+
 }
 
 
