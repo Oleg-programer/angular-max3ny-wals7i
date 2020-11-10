@@ -1,11 +1,11 @@
 /* ProcessorsComponent's private CSS styles */
-.processors {
+.harddrives {
   margin: 0 0 2em 0;
   list-style-type: none;
   padding: 0;
   width: 15em;
 }
-.processors li {
+.harddrives li {
   cursor: pointer;
   position: relative;
   left: 0;
@@ -15,20 +15,20 @@
   height: 1.6em;
   border-radius: 4px;
 }
-.processors li:hover {
+.harddrives li:hover {
   color: #607D8B;
   background-color: #DDD;
   left: .1em;
 }
-.processors li.selected {
+.harddrives li.selected {
   background-color: #CFD8DC;
   color: white;
 }
-.processors li.selected:hover {
+.harddrives li.selected:hover {
   background-color: #BBD8DC;
   color: white;
 }
-.processors .badge {
+.harddrives .badge {
   display: inline-block;
   font-size: small;
   color: white;
