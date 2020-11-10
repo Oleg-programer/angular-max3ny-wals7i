@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { Power } from '../box';
-import { boxes } from '../mock-boxes';
+import { powers } from '../mock-powers';
 
 @Component({
-  selector: 'app-boxes',
-  templateUrl: './boxes.component.html',
-  styleUrls: ['./boxes.component.css']
+  selector: 'app-powers',
+  templateUrl: './powers.component.html',
+  styleUrls: ['./powers.component.css']
 })
 
 export class PoweresComponent implements OnInit {
 
-  boxes = boxes;
+  powers = powers;
   selectedPower: Power;
 
   constructor() { }
