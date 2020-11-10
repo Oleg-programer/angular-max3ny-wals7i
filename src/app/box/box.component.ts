@@ -11,7 +11,7 @@ import { boxes } from '../mock-boxes';
 export class BoxesComponent implements OnInit {
 
   boxes = boxes;
-  selectedHero: Box;
+  selectedBox: Box;
 
   constructor() { }
 
@@ -19,7 +19,7 @@ export class BoxesComponent implements OnInit {
   }
 
   onSelect(box: Box): void {
-    this.selectedHero = box;
+    this.selectedBox = box;
   }
 }
 
