@@ -2,7 +2,7 @@
 <ul class="processors">
 	<li *ngFor="let processor of processors" [class.selected]="processor === selectedProcessor"
 		(click)="onSelect(processor)">
-		<span class="badge">{{processor.id}}</span> {{processor.name}}
+		<span class="badge">{{processor.id}}</span> {{processor.name}} {{processor.socket}}
 	</li>
 </ul>
 <button class="btn btn-primary" [disabled]="!selectedProcessor">Next</button>
