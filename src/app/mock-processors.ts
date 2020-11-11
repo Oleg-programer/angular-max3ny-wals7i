@@ -1,7 +1,7 @@
 import { Processor } from "./processor";
 
 export const PROCESSORS: Processor[] = [
-  { id: 11, name: "Dr 2" },
+  { id: 11, name: "Dr 2", socket: "AM4", power: 12 },
   { id: 12, name: "Narco" },
   { id: 13, name: "Bombasto" },
   { id: 14, name: "Celeritas" },
