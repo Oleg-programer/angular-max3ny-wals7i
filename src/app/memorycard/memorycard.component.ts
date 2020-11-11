@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Box } from '../box';
+import { Memorycard } from '../box';
 import { boxes } from '../mock-boxes';
 
 @Component({
@@ -8,18 +8,18 @@ import { boxes } from '../mock-boxes';
   styleUrls: ['./boxes.component.css']
 })
 
-export class BoxesComponent implements OnInit {
+export class MemorycardesComponent implements OnInit {
 
   boxes = boxes;
-  selectedBox: Box;
+  selectedMemorycard: Memorycard;
 
   constructor() { }
 
   ngOnInit() {
   }
 
-  onSelect(box: Box): void {
-    this.selectedBox = box;
+  onSelect(box: Memorycard): void {
+    this.selectedMemorycard = box;
   }
 }
 
