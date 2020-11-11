@@ -1,4 +1,4 @@
-<h2>Boxes</h2>
+<h2>Memorycards</h2>
 <ul class="memorycardes">
 	<li *ngFor="let memorycard of heroes" [class.selected]="memorycard === selectedMemorycard" (click)="onSelect(memorycard)">
 		<span class="badge">{{memorycard.id}}</span> {{memorycard.name}}
