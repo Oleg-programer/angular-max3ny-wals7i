@@ -1,7 +1,7 @@
 export interface Processor {
   id: number;
   name: string;
-  ouy: number;
+  output: number;
   socket: string;
 }
 
