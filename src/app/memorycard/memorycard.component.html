@@ -1,0 +1,25 @@
+<h2>Boxes</h2>
+<ul class="boxes">
+	<li *ngFor="let box of heroes" [class.selected]="box === selectedBox" (click)="onSelect(box)">
+		<span class="badge">{{box.id}}</span> {{box.name}}
+	</li>
+</ul>
+
+<div *ngIf="selectedBox">
+
+	<h2>{{selectedBox.name | uppercase}} Details</h2>
+	<div><span>id: </span>{{selectedBox.id}}</div>
+	<div>
+		<label>name:
+      <input [(ngModel)]="selectedBox.name" placeholder="name"/>
+    </label>
+	</div>
+
+</div>
+
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
