@@ -1,17 +1,17 @@
 <h2>Boxes</h2>
 <ul class="memorycardes">
-	<li *ngFor="let memorycard of heroes" [class.selected]="memorycard === selectedBox" (click)="onSelect(memorycard)">
+	<li *ngFor="let memorycard of heroes" [class.selected]="memorycard === selectedMemorycard" (click)="onSelect(memorycard)">
 		<span class="badge">{{memorycard.id}}</span> {{memorycard.name}}
 	</li>
 </ul>
 
-<div *ngIf="selectedBox">
+<div *ngIf="selectedMemorycard">
 
-	<h2>{{selectedBox.name | uppercase}} Details</h2>
-	<div><span>id: </span>{{selectedBox.id}}</div>
+	<h2>{{selectedMemorycard.name | uppercase}} Details</h2>
+	<div><span>id: </span>{{selectedMemorycard.id}}</div>
 	<div>
 		<label>name:
-      <input [(ngModel)]="selectedBox.name" placeholder="name"/>
+      <input [(ngModel)]="selectedMemorycard.name" placeholder="name"/>
     </label>
 	</div>
 
