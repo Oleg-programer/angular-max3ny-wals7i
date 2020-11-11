@@ -2,7 +2,7 @@ export interface Processor {
   id: number;
   name: string;
   // power: number;
-  // coket: string;
+  // socket: string;
 }
 
 
