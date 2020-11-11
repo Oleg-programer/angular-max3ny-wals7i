@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { Memorycard } from '../box';
-import { boxes } from '../mock-boxes';
+import { memorycards } from '../mock-memorycards';
 
 @Component({
-  selector: 'app-boxes',
-  templateUrl: './boxes.component.html',
-  styleUrls: ['./boxes.component.css']
+  selector: 'app-memorycards',
+  templateUrl: './memorycards.component.html',
+  styleUrls: ['./memorycards.component.css']
 })
 
 export class MemorycardesComponent implements OnInit {
 
-  boxes = boxes;
+  memorycards = memorycards;
   selectedMemorycard: Memorycard;
 
   constructor() { }
