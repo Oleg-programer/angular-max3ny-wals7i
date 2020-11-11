@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Memorycard } from '../box';
+import { Memorycard } from '../memorycard';
 import { memorycards } from '../mock-memorycards';
 
 @Component({
@@ -18,8 +18,8 @@ export class MemorycardesComponent implements OnInit {
   ngOnInit() {
   }
 
-  onSelect(box: Memorycard): void {
-    this.selectedMemorycard = box;
+  onSelect(memorycard: Memorycard): void {
+    this.selectedMemorycard = memorycard;
   }
 }
 
