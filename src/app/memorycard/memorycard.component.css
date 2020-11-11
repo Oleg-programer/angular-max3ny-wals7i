@@ -1,11 +1,11 @@
 /* BoxesComponent's private CSS styles */
-.boxes {
+.memorycards {
   margin: 0 0 2em 0;
   list-style-type: none;
   padding: 0;
   width: 15em;
 }
-.boxes li {
+.memorycards li {
   cursor: pointer;
   position: relative;
   left: 0;
@@ -15,20 +15,20 @@
   height: 1.6em;
   border-radius: 4px;
 }
-.boxes li:hover {
+.memorycards li:hover {
   color: #607D8B;
   background-color: #DDD;
   left: .1em;
 }
-.boxes li.selected {
+.memorycards li.selected {
   background-color: #CFD8DC;
   color: white;
 }
-.boxes li.selected:hover {
+.memorycards li.selected:hover {
   background-color: #BBD8DC;
   color: white;
 }
-.boxes .badge {
+.memorycards .badge {
   display: inline-block;
   font-size: small;
   color: white;
