@@ -7,7 +7,7 @@ export const PROCESSORS: Processor[] = [
   { id: 14, name: "AMD Ryzen 5 3500X 3.6GHz", socket: "AM4", output: 65 },
   { id: 15, name: "AMD Ryzen 3 3100 3.6GHz", socket: "AM4", output: 65 },
   { id: 16, name: "Intel Core i3-9100F 3.6GHz", socket: "1151", output: 65 },
-  { id: 17, name: "Dynama", socket: "AM4", output: 12 },
+  { id: 17, name: "Intel Core i7-10700K 3.8GHz", socket: "1200", output: 125 },
   { id: 18, name: "Dr IQ", socket: "AM4", output: 12 },
   { id: 19, name: "Magma", socket: "AM4", output: 12 },
   { id: 20, name: "Tornado", socket: "AM4", output: 12 }
