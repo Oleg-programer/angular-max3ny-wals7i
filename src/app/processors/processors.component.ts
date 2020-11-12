@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Processor } from '../processor';
 import { PROCESSORS } from '../mock-processors';
 import { Motherboard } from '../motherboard';
-import { PROCESSORS } from '../mock-processors';
+import { MOTHERBOARD } from '../mock-motherb';
 
 @Component({
   selector: 'app-processors',
