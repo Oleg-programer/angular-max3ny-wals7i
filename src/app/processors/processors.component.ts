@@ -12,6 +12,7 @@ export class ProcessorsComponent implements OnInit {
 
   processors = PROCESSORS;
   selectedProcessor: Processor;
+  confirmedProcessor: Processor;
 
   constructor() { }
 
@@ -23,7 +24,7 @@ export class ProcessorsComponent implements OnInit {
     console.log(processor);
   }
   
-
+ 
 }
 
 
