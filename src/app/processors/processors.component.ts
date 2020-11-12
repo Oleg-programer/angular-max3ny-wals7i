@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Processor } from '../processor';
 import { PROCESSORS } from '../mock-processors';
+import { Motherboard } from '../motherboard';
+import { PROCESSORS } from '../mock-processors';
 
 @Component({
   selector: 'app-processors',
@@ -23,8 +25,8 @@ export class ProcessorsComponent implements OnInit {
     this.selectedProcessor = processor;
     console.log(processor);
   }
-  
- 
+  onNext()
+
 }
 
 
