@@ -9,7 +9,7 @@ export const PROCESSORS: Harddrive[] = [
   { id: 16, name: "Western Digital Purple 6TB 64MB 5400rpm", slot: "SATA", output: 5.3 },
   { id: 17, name: "Toshiba Enterprise Capacity 8TB 7200rpm", slot: "SATA", output: 9.1 },
   { id: 18, name: "Western Digital Ultrastar DC HC310 3.5 4TB 7200rpm ", slot: "SATA", output: 7 },
-  { id: 19, name: "Intel Pentium G5600F 3.9GHz", slot: "1151", output: 54 },
+  { id: 19, name: "Western Digital Gold Enterprise Class 18 TB 7200 rpm", slot: "SATA", output: 6.5 },
   { id: 20, name: "Intel Celeron G4930 3.2GHz", slot: "1151", output: 54 }
 ];
 
