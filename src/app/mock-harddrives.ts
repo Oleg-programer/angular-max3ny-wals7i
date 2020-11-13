@@ -7,7 +7,7 @@ export const PROCESSORS: Harddrive[] = [
   { id: 14, name: "Toshiba P300 1TB 7200rpm", slot: "SATA", output: 6.4 },
   { id: 15, name: "Seagate BarraCuda HDD 1TB 5400rpm", slot: "SATA", output: 1.7 },
   { id: 16, name: "Western Digital Purple 6TB 64MB 5400rpm", slot: "SATA", output: 5.3 },
-  { id: 17, name: "Intel Core i7-10700K 3.8GHz", slot: "1200", output: 125 },
+  { id: 17, name: "", slot: "1200", output: 125 },
   { id: 18, name: "AMD Ryzen 5 2600 3.4GHz", slot: "AM4", output: 65 },
   { id: 19, name: "Intel Pentium G5600F 3.9GHz", slot: "1151", output: 54 },
   { id: 20, name: "Intel Celeron G4930 3.2GHz", slot: "1151", output: 54 }
