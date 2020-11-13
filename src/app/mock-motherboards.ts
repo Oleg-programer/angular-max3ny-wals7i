@@ -1,8 +1,8 @@
 import { Motherboard } from "./motherboard";
 
 export const MOTHERBOARD: Motherboard[] = [
-  { id: 11, name: "Asus TUF B450-Pro Gaming", socket: "AM4", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
-  { id: 12, name: "Intel Core i5-10400F 2.9GHz", socket: "1200", output: 65 },
+  { id: 21, name: "Asus TUF B450-Pro Gaming", socket: "AM4", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
+  { id: 22, name: "MSI B450 Tomahawk Max ", socket: "AM4", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
   { id: 13, name: "AMD Ryzen 7 5800X 3.8GHz", socket: "AM4", output: 105 },
   { id: 14, name: "AMD Ryzen 5 3500X 3.6GHz", socket: "AM4", output: 65 },
   { id: 15, name: "AMD Ryzen 3 3100 3.6GHz", socket: "AM4", output: 65 },
