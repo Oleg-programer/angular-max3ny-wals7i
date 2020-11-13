@@ -2,8 +2,8 @@ import { Harddrive } from "./harddrive";
 
 export const PROCESSORS: Harddrive[] = [
   { id: 11, name: "Western Digital Blue 1TB 7200rpm", slot: "SATA", output: 6.8 },
-  { id: 12, name: "HP Hot Plug SC Midline (MDL) 2TB 7200rpm", slot: "SAS", output: 6 6.8},
-  { id: 13, name: "AMD Ryzen 7 5800X 3.8GHz", slot: "AM4", output: 105 },
+  { id: 12, name: "HP Hot Plug SC Midline (MDL) 2TB 7200rpm", slot: "SAS", output: 6.8},
+  { id: 13, name: "Western Digital Blue 1 TB 5400", slot: "SATA", output: 3.3 },
   { id: 14, name: "AMD Ryzen 5 3500X 3.6GHz", slot: "AM4", output: 65 },
   { id: 15, name: "AMD Ryzen 3 3100 3.6GHz", slot: "AM4", output: 65 },
   { id: 16, name: "Intel Core i3-9100F 3.6GHz", slot: "1151", output: 65 },
