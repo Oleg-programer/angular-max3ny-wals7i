@@ -4,7 +4,7 @@ export const MOTHERBOARD: Motherboard[] = [
   { id: 21, name: "Asus TUF B450-Pro Gaming", socket: "AM4", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
   { id: 22, name: "MSI B450 Tomahawk Max ", socket: "AM4", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
   { id: 23, name: "Gigabyte H310M S2 2.0 ", socket: "AM4", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
-  { id: 14, name: "AMD Ryzen 5 3500X 3.6GHz", socket: "AM4", output: 65 },
+  { id: 24, name: "Asus Prime A320M-K ", socket: "AM4", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
   { id: 15, name: "AMD Ryzen 3 3100 3.6GHz", socket: "AM4", output: 65 },
   { id: 16, name: "Intel Core i3-9100F 3.6GHz", socket: "1151", output: 65 },
   { id: 17, name: "Intel Core i7-10700K 3.8GHz", socket: "1200", output: 125 },
