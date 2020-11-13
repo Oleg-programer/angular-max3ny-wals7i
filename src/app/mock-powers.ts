@@ -1,6 +1,6 @@
-import { Processor } from "./processor";
+import { Powers } from "./powers";
 
-export const PROCESSORS: Processor[] = [
+export const P: Powers[] = [
   { id: 11, name: "Aerocool VX Plus 600 600W", output: 600 },
   { id: 12, name: "Intel Core i5-10400F 2.9GHz", socket: "1200", output: 65 },
   { id: 13, name: "AMD Ryzen 7 5800X 3.8GHz", socket: "AM4", output: 105 },
