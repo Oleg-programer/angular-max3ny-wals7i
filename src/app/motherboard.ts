@@ -1,8 +1,10 @@
 export interface Motherboard {
   id: number;
   name: string;
-  output: number;
   socket: string;
+  ram: string;
+  gpu: string;
+  hdd: string;
 }
 
 
