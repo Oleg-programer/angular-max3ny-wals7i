@@ -3,7 +3,7 @@ import { Motherboard } from "./motherboard";
 export const MOTHERBOARD: Motherboard[] = [
   { id: 21, name: "Asus TUF B450-Pro Gaming", socket: "AM4", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
   { id: 22, name: "MSI B450 Tomahawk Max ", socket: "AM4", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
-  { id: 13, name: "AMD Ryzen 7 5800X 3.8GHz", socket: "AM4", output: 105 },
+  { id: 23, name: "Gigabyte H310M S2 2.0 ", socket: "AM4", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
   { id: 14, name: "AMD Ryzen 5 3500X 3.6GHz", socket: "AM4", output: 65 },
   { id: 15, name: "AMD Ryzen 3 3100 3.6GHz", socket: "AM4", output: 65 },
   { id: 16, name: "Intel Core i3-9100F 3.6GHz", socket: "1151", output: 65 },
