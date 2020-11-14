@@ -9,7 +9,7 @@ export const MOTHERBOARD: Motherboard[] = [
   { id: 26, name: "Gigabyte H410M S2", socket: "1151", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
   { id: 17, name: "MSI B450M-A Pro Max", socket: "1200", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
   { id: 18, name: "Gigabyte B450 Aorus Elite", socket: "AM4", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
-  { id: 19, name: "Intel Pentium G5600F 3.9GHz", socket: "1151", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
+  { id: 19, name: "Asus Prime A320M-A", socket: "1151", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
   { id: 20, name: "Intel Celeron G4930 3.2GHz", socket: "1151", ram: "DDR4", gpu: "PCI", hdd: "SATA" }
 ];
 
