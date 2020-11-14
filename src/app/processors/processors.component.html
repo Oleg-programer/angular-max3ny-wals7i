@@ -5,7 +5,9 @@
 		<span class="badge">{{processor.id}}</span> {{processor.name}} {{processor.socket}} {{processor.output}}
 	</li>
 </ul>
-<button class="btn btn-primary" [disabled]="!selectedProcessor">Next</button>
+<button class="btn btn-primary" [disabled]="!selectedProcessor"
+(click)="onNext(processor)">
+Next</button>
 <div *ngIf="selectedProcessor">
 
 	<h2>{{selectedProcessor.name | uppercase}} Details</h2>
