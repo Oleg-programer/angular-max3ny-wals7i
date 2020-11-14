@@ -27,7 +27,7 @@ export class ProcessorsComponent implements OnInit {
   }
   onNext(processor: Processor): void {
     this.confirmedProcessor = processor;
-    console.log(processor);
+    console.log(this.confirmedProcessor.socket);
   }
 
 }
