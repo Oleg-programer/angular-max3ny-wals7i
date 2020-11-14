@@ -6,11 +6,11 @@ export const MOTHERBOARD: Motherboard[] = [
   { id: 23, name: "Gigabyte H310M S2 2.0 ", socket: "AM4", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
   { id: 24, name: "Asus Prime A320M-K ", socket: "AM4", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
   { id: 25, name: "ASRock A320M-DVS R4.0  ", socket: "AM4", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
-  { id: 16, name: "Intel Core i3-9100F 3.6GHz", socket: "1151", output: 65 },
-  { id: 17, name: "Intel Core i7-10700K 3.8GHz", socket: "1200", output: 125 },
-  { id: 18, name: "AMD Ryzen 5 2600 3.4GHz", socket: "AM4", output: 65 },
-  { id: 19, name: "Intel Pentium G5600F 3.9GHz", socket: "1151", output: 54 },
-  { id: 20, name: "Intel Celeron G4930 3.2GHz", socket: "1151", output: 54 }
+  { id: 26, name: "Gigabyte H410M S2", socket: "1151", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
+  { id: 17, name: "Intel Core i7-10700K 3.8GHz", socket: "1200", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
+  { id: 18, name: "AMD Ryzen 5 2600 3.4GHz", socket: "AM4", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
+  { id: 19, name: "Intel Pentium G5600F 3.9GHz", socket: "1151", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
+  { id: 20, name: "Intel Celeron G4930 3.2GHz", socket: "1151", ram: "DDR4", gpu: "PCI", hdd: "SATA" }
 ];
 
 /*
