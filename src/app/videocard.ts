@@ -1,7 +1,8 @@
-export interface Power {
+export interface Processor {
   id: number;
   name: string;
   output: number;
+  slot: string;
 }
 
 
