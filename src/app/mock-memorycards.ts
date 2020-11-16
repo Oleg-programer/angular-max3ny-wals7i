@@ -1,7 +1,7 @@
 import { Memorycard } from "./memorycard";
 
 export const MEMORYCARDS: Memorycard[] = [
-  { id: 51, name: "Dr 2" },
+  { id: 51, name: "HyperX", clot: "DDR4" },
   { id: 52, name: "Narco" },
   { id: 53, name: "Bombasto" },
   { id: 54, name: "Celeritas" },
