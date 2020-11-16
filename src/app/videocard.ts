@@ -1,4 +1,4 @@
-export interface Processor {
+export interface Videocard {
   id: number;
   name: string;
   output: number;
