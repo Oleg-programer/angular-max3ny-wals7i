@@ -2,10 +2,10 @@ import { Videocard } from "./videocard";
 
 export const VIDEOCARDS: Videocard[] = [
   { id: 31, name: "PCI-Ex GeForce RTX 3090 GamingPro", output: "750", slot: "PCI" },
-  { id: 32, name: "Narco" },
-  { id: 33, name: "Bombasto" },
-  { id: 34, name: "Celeritas" },
-  { id: 35, name: "Magneta" },
+  { id: 32, name: "MSI PCI-Ex GeForce RTX 3080 VENTUS", output: "750", slot: "PCI"  },
+  { id: 33, name: "Asus PCI-Ex GeForce RTX 3090 ROG Strix", output: "750", slot: "PCI" },
+  { id: 34, name: "Gigabyte PCI-Ex GeForce RTX 3070 EAGLE", output: "650", slot: "PCI" },
+  { id: 35, name: "Palit PCI-Ex GeForce RTX 3080 GameRock", output: "850", slot: "PCI" },
   { id: 36, name: "RubberMan" },
   { id: 37, name: "Dynama" },
   { id: 38, name: "Dr IQ" },
