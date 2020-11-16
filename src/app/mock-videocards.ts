@@ -1,7 +1,7 @@
 import { Videocard } from "./videocard";
 
 export const VIDEOCARDS: Videocard[] = [
-  { id: 31, name: "Dr 2" },
+  { id: 31, name: "PCI-Ex GeForce RTX 3090 GamingPro", output: "750", slot: "PCI" },
   { id: 32, name: "Narco" },
   { id: 33, name: "Bombasto" },
   { id: 34, name: "Celeritas" },
