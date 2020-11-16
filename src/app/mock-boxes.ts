@@ -1,6 +1,6 @@
-import { Processor } from "./processor";
+import { Box } from "./box";
 
-export const PROCESSORS: Processor[] = [
+export const BOXES: Box[] = [
   { id: 11, name: "Dr 2" },
   { id: 12, name: "Narco" },
   { id: 13, name: "Bombasto" },
