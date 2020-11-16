@@ -1,6 +1,6 @@
-import { Processor } from "./processor";
+import { Videocard } from "./videocard";
 
-export const PROCESSORS: Processor[] = [
+export const VIDEOCARDS: Videocard[] = [
   { id: 31, name: "Dr 2" },
   { id: 32, name: "Narco" },
   { id: 33, name: "Bombasto" },
