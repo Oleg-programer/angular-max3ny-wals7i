@@ -1,16 +1,16 @@
-import { Processor } from "./processor";
+import { Memorycard } from "./memorycard";
 
-export const PROCESSORS: Processor[] = [
-  { id: 11, name: "Dr 2" },
-  { id: 12, name: "Narco" },
-  { id: 13, name: "Bombasto" },
-  { id: 14, name: "Celeritas" },
-  { id: 15, name: "Magneta" },
-  { id: 16, name: "RubberMan" },
-  { id: 17, name: "Dynama" },
-  { id: 18, name: "Dr IQ" },
-  { id: 19, name: "Magma" },
-  { id: 20, name: "Tornado" }
+export const MEMORYCARDS: Memorycard[] = [
+  { id: 51, name: "Dr 2" },
+  { id: 52, name: "Narco" },
+  { id: 53, name: "Bombasto" },
+  { id: 54, name: "Celeritas" },
+  { id: 55, name: "Magneta" },
+  { id: 56, name: "RubberMan" },
+  { id: 57, name: "Dynama" },
+  { id: 58, name: "Dr IQ" },
+  { id: 59, name: "Magma" },
+  { id: 60, name: "Tornado" }
 ];
 
 /*
