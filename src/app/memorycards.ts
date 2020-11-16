@@ -1,4 +1,4 @@
-export interface Power {
+export interface Memorycard {
   id: number;
   name: string;
   output: number;
