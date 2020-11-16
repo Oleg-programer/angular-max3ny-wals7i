@@ -1,6 +1,6 @@
 import { Motherboard } from "./motherboard";
 
-export const MOTHERBOARD: Motherboard[] = [
+export const MOTHERBOARDS: Motherboard[] = [
   { id: 21, name: "Asus TUF B450-Pro Gaming", socket: "AM4", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
   { id: 22, name: "MSI B450 Tomahawk Max ", socket: "AM4", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
   { id: 23, name: "Gigabyte H310M S2 2.0 ", socket: "AM4", ram: "DDR4", gpu: "PCI", hdd: "SATA" },
