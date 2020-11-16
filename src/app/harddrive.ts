@@ -1,4 +1,4 @@
-export interface Power {
+export interface Harddrive {
   id: number;
   name: string;
   output: number;
