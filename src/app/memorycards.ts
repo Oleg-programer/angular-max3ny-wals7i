@@ -1,7 +1,7 @@
 export interface Memorycard {
   id: number;
   name: string;
-  output: number;
+  clot: string;
 }
 
 
