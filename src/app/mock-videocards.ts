@@ -7,7 +7,7 @@ export const VIDEOCARDS: Videocard[] = [
   { id: 34, name: "Gigabyte PCI-Ex GeForce RTX 3070 EAGLE", output: "650", slot: "PCI" },
   { id: 35, name: "Palit PCI-Ex GeForce RTX 3080 GameRock", output: "850", slot: "PCI" },
   { id: 36, name: "MSI PCI-Ex Radeon RX 580 ARMOR", output: "500", slot: "PCI" },
-  { id: 37, name: "Dynama" },
+  { id: 37, name: "Gigabyte PCI-Ex GeForce GTX 1650 D6 Windforce", output: "300", slot: "PCI" },
   { id: 38, name: "Dr IQ" },
   { id: 39, name: "Magma" },
   { id: 40, name: "Tornado" }
