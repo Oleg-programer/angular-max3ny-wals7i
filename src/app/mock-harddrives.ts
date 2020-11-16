@@ -1,6 +1,6 @@
 import { Harddrive } from "./harddrive";
 
-export const PROCESSORS: Harddrive[] = [
+export const HARDDRIVES: Harddrive[] = [
   { id: 61, name: "Western Digital Blue 1TB 7200rpm", slot: "SATA", output: 6.8 },
   { id: 62, name: "HP Hot Plug SC Midline (MDL) 2TB 7200rpm", slot: "SAS", output: 6.8},
   { id: 63, name: "Western Digital Blue 1 TB 5400", slot: "SATA", output: 3.3 },
