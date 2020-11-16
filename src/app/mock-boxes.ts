@@ -1,16 +1,16 @@
 import { Box } from "./box";
 
 export const BOXES: Box[] = [
-  { id: 11, name: "Dr 2" },
-  { id: 12, name: "Narco" },
-  { id: 13, name: "Bombasto" },
-  { id: 14, name: "Celeritas" },
-  { id: 15, name: "Magneta" },
-  { id: 16, name: "RubberMan" },
-  { id: 17, name: "Dynama" },
-  { id: 18, name: "Dr IQ" },
-  { id: 19, name: "Magma" },
-  { id: 20, name: "Tornado" }
+  { id: 71, name: "Dr 2" },
+  { id: 72, name: "Narco" },
+  { id: 73, name: "Bombasto" },
+  { id: 74, name: "Celeritas" },
+  { id: 75, name: "Magneta" },
+  { id: 76, name: "RubberMan" },
+  { id: 77, name: "Dynama" },
+  { id: 78, name: "Dr IQ" },
+  { id: 79, name: "Magma" },
+  { id: 80, name: "Tornado" }
 ];
 
 /*
