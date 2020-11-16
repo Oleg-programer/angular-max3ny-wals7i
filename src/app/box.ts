@@ -1,4 +1,4 @@
-export interface Power {
+export interface Box {
   id: number;
   name: string;
   output: number;
