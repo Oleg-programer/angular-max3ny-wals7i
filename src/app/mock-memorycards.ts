@@ -2,15 +2,15 @@ import { Memorycard } from "./memorycard";
 
 export const MEMORYCARDS: Memorycard[] = [
   { id: 51, name: "HyperX", clot: "DDR4" },
-  { id: 52, name: "Narco" },
-  { id: 53, name: "Bombasto" },
-  { id: 54, name: "Celeritas" },
-  { id: 55, name: "Magneta" },
-  { id: 56, name: "RubberMan" },
-  { id: 57, name: "Dynama" },
-  { id: 58, name: "Dr IQ" },
-  { id: 59, name: "Magma" },
-  { id: 60, name: "Tornado" }
+  { id: 52, name: "HyperX", clot: "DDR4" },
+  { id: 53, name: "HyperX", clot: "DDR4" },
+  { id: 54, name: "HyperX", clot: "DDR4" },
+  { id: 55, name: "HyperX", clot: "DDR4" },
+  { id: 56, name: "HyperX", clot: "DDR4" },
+  { id: 57, name: "HyperX", clot: "DDR4" },
+  { id: 58, name: "HyperX", clot: "DDR4" },
+  { id: 59, name: "HyperX", clot: "DDR4" },
+  { id: 60, name: "HyperX", clot: "DDR4" }
 ];
 
 /*
