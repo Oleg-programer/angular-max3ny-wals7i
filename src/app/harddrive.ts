@@ -1,7 +1,7 @@
 export interface Harddrive {
   id: number;
   name: string;
-  
+  output: number;
 }
 
 
