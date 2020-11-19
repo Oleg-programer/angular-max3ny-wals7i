@@ -6,11 +6,11 @@ export const BOXES: Box[] = [
   { id: 73, name: "DeepCool Matrexx 55 MESH" },
   { id: 74, name: "Frontier Archer" },
   { id: 75, name: "Frontier Styx" },
-  { id: 76, name: "RubberMan" },
-  { id: 77, name: "Dynama" },
-  { id: 78, name: "Dr IQ" },
-  { id: 79, name: "Magma" },
-  { id: 80, name: "Tornado" }
+  { id: 76, name: "DeepCool Matrexx 30 Black" },
+  { id: 77, name: "Raidmax Vortex V5 405WB Black" },
+  { id: 78, name: "Deepcool Gamerstorm Macube 310P White" },
+  { id: 79, name: "Frontier Jedi" },
+  { id: 80, name: "Pure Base 500DX White" }
 ];
 
 /*
