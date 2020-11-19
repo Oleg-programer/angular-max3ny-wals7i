@@ -30,10 +30,10 @@ export class ProcessorsComponent implements OnInit {
     console.log(this.confirmedProcessor.socket);
   }
 
-}
-export class ProcessorItem {
-  @Input() proitem: string; // decorate the property with @Input()
-}
+// }
+// export class ProcessorItem {
+//   @Input() processoritem: string; // decorate the property with @Input()
+// }
 
 
 /*
