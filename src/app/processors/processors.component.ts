@@ -34,6 +34,14 @@ export class ProcessorsComponent implements OnInit {
 // export class ProcessorItem {
 //   @Input() processoritem: string; // decorate the property with @Input()
 // }
+export class PItemOutputComponent {
+
+  @Output() newItemEvent = new EventEmitter<string>();
+
+  addNewItem(value: string) {
+    this.newItemEvent.emit(value);
+  }
+}
 
 
 /*
