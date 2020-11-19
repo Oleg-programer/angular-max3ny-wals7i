@@ -1,11 +1,11 @@
 import { Box } from "./box";
 
 export const BOXES: Box[] = [
-  { id: 71, name: "Dr 2" },
-  { id: 72, name: "Narco" },
-  { id: 73, name: "Bombasto" },
-  { id: 74, name: "Celeritas" },
-  { id: 75, name: "Magneta" },
+  { id: 71, name: "Aerocool Aero-500G RGB Tempered Glass Black" },
+  { id: 72, name: "NZXT H510 Matte Black-Red" },
+  { id: 73, name: "DeepCool Matrexx 55 MESH" },
+  { id: 74, name: "Frontier Archer" },
+  { id: 75, name: "Frontier Styx" },
   { id: 76, name: "RubberMan" },
   { id: 77, name: "Dynama" },
   { id: 78, name: "Dr IQ" },
