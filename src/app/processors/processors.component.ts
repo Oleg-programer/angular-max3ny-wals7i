@@ -31,7 +31,9 @@ export class ProcessorsComponent implements OnInit {
   }
 
 }
-
+export class ProcessorItem {
+  @Input() proitem: string; // decorate the property with @Input()
+}
 
 
 /*
