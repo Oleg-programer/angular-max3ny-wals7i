@@ -12,9 +12,11 @@ import { MOTHERBOARD } from '../mock-motherboards';
 
 export class ProcessorsComponent implements OnInit {
 
+@Output() newItemEvent = new EventEmitter<string>();
   processors = PROCESSORS;
   selectedProcessor: Processor;
   confirmedProcessor: Processor;
+ 
 
   constructor() { }
 
@@ -30,18 +32,7 @@ export class ProcessorsComponent implements OnInit {
     console.log(this.confirmedProcessor.socket);
   }
 
-// }
-// export class ProcessorItem {
-//   @Input() processoritem: string; // decorate the property with @Input()
-// }
-export class PItemOutputComponent {
 
-  @Output() newItemEvent = new EventEmitter<string>();
-
-  addNewItem(value: string) {
-    this.newItemEvent.emit(value);
-  }
-}
 
 
 /*
