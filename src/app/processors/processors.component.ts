@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, } from '@angular/core';
+
 import { Processor } from '../processor';
 import { PROCESSORS } from '../mock-processors';
 
@@ -30,6 +31,7 @@ export class ProcessorsComponent implements OnInit {
     this.confirmedProcessor = processor;
     console.log(this.confirmedProcessor.socket);
   }
+}
 
 
 
