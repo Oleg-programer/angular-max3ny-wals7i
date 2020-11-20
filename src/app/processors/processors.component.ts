@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Processor } from '../processor';
 import { PROCESSORS } from '../mock-processors';
-import { Motherboard } from '../motherboard';
-import { MOTHERBOARD } from '../mock-motherboards';
+
 
 @Component({
   selector: 'app-processors',
@@ -12,7 +11,7 @@ import { MOTHERBOARD } from '../mock-motherboards';
 
 export class ProcessorsComponent implements OnInit {
 
-@Output() newItemEvent = new EventEmitter<string>();
+  @Output() newItemEvent = new EventEmitter<string>();
   processors = PROCESSORS;
   selectedProcessor: Processor;
   confirmedProcessor: Processor;
