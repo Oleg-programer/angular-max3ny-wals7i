@@ -12,7 +12,7 @@ import { PROCESSORS } from '../mock-processors';
 
 export class ProcessorsComponent implements OnInit {
 
-  @Output() newparameter = new EventEmitter<string>();
+  @Output() newParameter = new EventEmitter<string>();
   processors = PROCESSORS;
   selectedProcessor: Processor;
   confirmedProcessor: Processor;
@@ -22,6 +22,7 @@ export class ProcessorsComponent implements OnInit {
 
   ngOnInit() {
   }
+  
 
   onSelect(processor: Processor): void {
     this.selectedProcessor = processor;
@@ -30,6 +31,9 @@ export class ProcessorsComponent implements OnInit {
   onNext(processor: Processor): void {
     this.confirmedProcessor = processor;
     console.log(this.confirmedProcessor.socket);
+  }
+   addNewItem(value: string) {
+    this.newP.emit(value);
   }
 }
 
