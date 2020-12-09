@@ -12,7 +12,7 @@ import { PROCESSORS } from '../mock-processors';
 
 export class ProcessorsComponent implements OnInit {
 
-  @Output() newItemEvent = new EventEmitter<string>();
+  @Output() newparameter = new EventEmitter<string>();
   processors = PROCESSORS;
   selectedProcessor: Processor;
   confirmedProcessor: Processor;
