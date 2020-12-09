@@ -12,7 +12,7 @@ import { PROCESSORS } from '../mock-processors';
 
 export class ProcessorsComponent implements OnInit {
 
-  @Output() newParameter = new EventEmitter<string>();
+  @Output() newParameter = new EventEmitter<Processor>();
   processors = PROCESSORS;
   selectedProcessor: Processor;
   confirmedProcessor: Processor;
@@ -30,11 +30,10 @@ export class ProcessorsComponent implements OnInit {
   }
   onNext(processor: Processor): void {
     this.confirmedProcessor = processor;
+     this.newParameter.emit(processor);
     console.log(this.confirmedProcessor.socket);
   }
-   addNewParameter(value: string) {
-    this.newParam.emit(value);
-  }
+   
 }
 
 
