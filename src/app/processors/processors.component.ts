@@ -33,7 +33,7 @@ export class ProcessorsComponent implements OnInit {
     console.log(this.confirmedProcessor.socket);
   }
    addNewParameter(value: string) {
-    this.newPa.emit(value);
+    this.newParam.emit(value);
   }
 }
 
