@@ -32,8 +32,8 @@ export class ProcessorsComponent implements OnInit {
     this.confirmedProcessor = processor;
     console.log(this.confirmedProcessor.socket);
   }
-   addNewItem(value: string) {
-    this.newP.emit(value);
+   addNewParameter(value: string) {
+    this.newPa.emit(value);
   }
 }
 
