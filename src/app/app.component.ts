@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+// import { Processor } from '../processor'; I import this just to check. Should create general interface aka part/chunk of th
+// import { PROCESSORS } from '../mock-processors';
 
 @Component({
   selector: 'app-root',
@@ -7,8 +9,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Build your PC ';
-}
+  confirmedParameter: Processor;
 
+  getParameter(parameter: Processor): void {
+    this.selectedProcessor = processor;
+    console.log(processor);
+  }
+}
+// onSelect(processor: Processor): void {
+//     this.selectedProcessor = processor;
+//     console.log(processor);
 
 /*
 Copyright Google LLC. All Rights Reserved.
